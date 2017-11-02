@@ -1,7 +1,6 @@
 package projects.coloring_distance2.nodes.timers;
 
 import projects.coloring_distance2.nodes.messages.C2Message;
-import projects.coloring_distance2.nodes.messages.CMessage;
 import projects.coloring_distance2.nodes.nodeImplementations.CNode;
 import sinalgo.nodes.messages.Message;
 import sinalgo.nodes.timers.Timer;
@@ -29,7 +28,7 @@ public class C2Timer extends Timer {
     public void fire() {
         Message msg;
 
-        msg = new C2Message(sender.ID, sender.getDominant(), this.preferred_colors);
+        msg = new C2Message(sender.ID, sender.getDominator(), this.preferred_colors);
 
         // le noeud envoie le message ˆ tous ses voisins
         sender.broadcast(msg);

@@ -1,6 +1,5 @@
 package projects.coloring_distance2.nodes.timers;
 
-import projects.coloring_distance2.nodes.messages.CMessage;
 import projects.coloring_distance2.nodes.messages.MMessage;
 import projects.coloring_distance2.nodes.nodeImplementations.CNode;
 import sinalgo.nodes.timers.Timer;
@@ -23,7 +22,7 @@ public class MTimer extends Timer {
 
     public void fire() {
         // le noeud crŽe un message contenant sa couleur
-        MMessage msg= new MMessage(sender.ID,sender.getDominant());
+        MMessage msg= new MMessage(sender.ID,sender.getDominator());
         // le noeud envoie le message ˆ tous ses voisins
         sender.broadcast(msg);
         // le noeud relance un nouveau timer

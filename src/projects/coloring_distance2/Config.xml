@@ -183,9 +183,9 @@
 		<RandomMessageTransmission distribution="Uniform" min="1" max="5"/>
 		<Node defaultSize="10" />
 
-		<GeometricNodeCollection rMax="50"/>
+		<GeometricNodeCollection rMax="100"/>
 
-		<UDG rMax="50"/>
+		<UDG rMax="100"/>
 
 		<SINR alpha="2" beta="0.7" noise="0"/>
 

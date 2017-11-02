@@ -4,6 +4,7 @@ import java.awt.Color;
 import java.awt.Graphics;
 import java.util.*;
 
+import projects.coloring_distance2_2.nodes.nodeImplementations.NodeInfo;
 import sinalgo.configuration.WrongConfigurationException;
 import sinalgo.gui.transformation.PositionTransformation;
 import sinalgo.nodes.Node;
@@ -18,11 +19,9 @@ import sinalgo.nodes.messages.Message;
 public class CNode extends Node {
 
     private NodeInfo me;
-    Random rnd;
 
     private final int nb = 10;
     private final Color tab[] = {Color.BLUE,Color.CYAN,Color.GREEN,Color.LIGHT_GRAY,Color.MAGENTA,Color.ORANGE,Color.PINK,Color.RED,Color.WHITE,Color.YELLOW};
-
 
     //--------------------------------
 
@@ -69,8 +68,8 @@ public class CNode extends Node {
         //setNode_color((int) (Math.random() * range) % range);
     }
 
-    public void updateSpectrum(int id, int dominator, int color, int number_neighbours){
-        this.me.updateSpectrum(id, dominator, color, number_neighbours);
+    public void updateSpectrum(int id, int dominator, int color, int dominator_color, int number_neighbours){
+        this.me.updateSpectrum(id, dominator, color, dominator_color, number_neighbours);
     }
 
     public ArrayList<Integer> getDominatedNodes(){
@@ -93,7 +92,7 @@ public class CNode extends Node {
         return null;
     }
 
-    public void computeMIS(){
+    public void computeMIS(HashSet<NodeInfo> spectrum){
         //COMPUTE MIS
         //I say that I am the dominant
         Integer my_dominant = this.ID;
@@ -117,9 +116,74 @@ public class CNode extends Node {
             return;
 
         //TODO: compute color
-        int mycolor = 0;
+        computePreferredColor(spectrum);
 
-        computeColor(this.getDominator(), mycolor);
+        //computeColor(this.getDominator(), mycolor);
+    }
+
+    public void computePreferredColor(HashSet<NodeInfo> spectrum){
+        if(! this.isDominant()){
+            return;
+        }
+
+        boolean[] used_colors = new boolean[nb];
+
+        /*for (NodeInfo neighbour : this.getSpectrum()){
+            for (NodeInfo neighbour_neighbour : neighbour.getSpectrum()){
+
+            }
+        }*/
+
+        for (NodeInfo nd : spectrum){
+            if(nd.getDominator() > this.getDominator()){
+                used_colors[nd.color] = true;
+                used_colors[nd.getDominatorColor()] = true;
+            }
+        }
+
+        /*for (Edge edge : this.outgoingConnections){
+            if(this.getMe().getNeighbourSpectrum(edge.endNode.ID) != null) {
+                for (NodeInfo neighbour_neighbour : this.getMe().getNeighbourSpectrum(edge.endNode.ID)) {
+                    if (neighbour_neighbour.getDominator() > this.getMe().getDominator()) {
+                        used_colors[neighbour_neighbour.color] = true;
+                        used_colors[neighbour_neighbour.getDominatorColor()] = true;
+                    }
+                }
+            }
+        }*/
+
+        //if my color is already used, then change it
+        if(used_colors[me.getColor()]){
+            int free_color = freeColors(used_colors);
+
+            if(free_color < 0){
+                System.out.println("No free colors");
+                return;
+            }
+
+            this.me.setColor(free_color);
+            used_colors[free_color] = true;
+        }else{
+            used_colors[me.getColor()] = true;
+        }
+
+        for(NodeInfo neighbour : this.getSpectrum()){
+            if(neighbour.getDominator() == this.getDominator() && neighbour.getId() != this.me.getId()){
+                if(used_colors[neighbour.getColor()]){
+                    int free_color = freeColors(used_colors);
+
+                    if(free_color < 0){
+                        System.out.println("No free colors");
+                        return;
+                    }
+
+                    neighbour.setPreferredColor(free_color);
+                    used_colors[free_color] = true;
+                }else{
+                    used_colors[neighbour.getColor()] = true;
+                }
+            }
+        }
     }
 
     /*
@@ -145,19 +209,44 @@ public class CNode extends Node {
 
             if(msg instanceof CMessage){
                 //Update the spectrum
-                updateSpectrum(((CMessage) msg).id, ((CMessage) msg).dominator, ((CMessage) msg).color, ((CMessage) msg).number_neighbours);
+                updateSpectrum(((CMessage) msg).id, ((CMessage) msg).dominator, ((CMessage) msg).color, ((CMessage) msg).dominator_color, ((CMessage) msg).number_neighbours);
 
-                //neighbours_dominant.put(((CMessage) msg).id, ((CMessage) msg).dominator);
+                //Update neighbor spectrum
+                this.me.setNeighbourSpectrum(((CMessage) msg).id, ((CMessage) msg).spectrum);
 
-                //neighbours_spectrum.put(((CMessage) msg).id, ((CMessage) msg).spectrum);
+                HashSet<NodeInfo> whole_spectrum = new HashSet<>();
 
-                /*System.out.println(this.ID + " size of Spectrum["+((CMessage) msg).id + "] = "+this.getSpectrum().size());
+                for (Integer key : ((CMessage) msg).myself.getNeighbour_spectrum().keySet()){
+                    whole_spectrum.addAll(((CMessage) msg).myself.getNeighbourSpectrum(key));
+                }
+                whole_spectrum.addAll(((CMessage) msg).spectrum);
+                whole_spectrum.addAll(getSpectrum());
 
-                for(NodeInfo ni : neighbours_spectrum.get(((CMessage) msg).id)){
-                    System.out.println(ni.toString());
-                }*/
+                computeMIS(whole_spectrum);
 
-                computeMIS();
+                //Update my color if the msg comes from my leader
+
+                if(((CMessage) msg).id == this.getDominator()){
+                    for(NodeInfo nd : ((CMessage) msg).spectrum){
+                        if(nd.getId() == this.ID){
+                            if(nd.getPreferredColor() != null)
+                            {
+                                this.me.setColor(nd.getPreferredColor());
+
+                                //TODO: remove useless int c
+                                int c;
+                            }
+                        }
+                    }
+                }
+
+                //Update my info in the spectrum
+
+                Integer color = this.getMe().getDominatorColor();
+                if(((CMessage) msg).id == this.getDominator())
+                    color = ((CMessage) msg).color;
+
+                updateSpectrum(this.ID, this.me.getDominator(), this.me.getColor(), color, 0);
             }
             if(msg instanceof C2Message){
                 //If I receive set of colors from my neighbor
@@ -180,7 +269,7 @@ public class CNode extends Node {
                 computeColor();
                 */
             }
-            updateSpectrum(this.ID, this.me.getDominator(), this.me.getColor(), 0);
+
             System.gc();
             System.runFinalization();
         }
@@ -200,9 +289,9 @@ public class CNode extends Node {
         me = new NodeInfo(this.ID, this.ID, 0, this.outgoingConnections.size());
 
         this.initNodeColor(nb);
-        rnd= new Random();
 
         (new CTimer(this, 50)).startRelative(50, this);
+        //(new CTimer(this, 50)).startRelative(50, this);
     }
 
     public void neighborhoodChange() {}
@@ -244,27 +333,13 @@ public class CNode extends Node {
         super.drawNodeAsDiskWithText(g, pt, highlight, text, 20, c);
     }
 
-    /*public boolean[] freeColors(){
-        boolean[] free_colors = new boolean[nb];
-        for (int i=0;i<free_colors.length;i++)
-            free_colors[i]=true;
-
-        Iterator<Edge> it = this.outgoingConnections.iterator();
-
-        while(it.hasNext()){
-            Edge e = it.next();
-
-            Integer tmp = spectrum.get(e.endNode.ID);
-
-            if(tmp != null && e.endNode.ID > this.ID){
-                free_colors[tmp] = false;
-            }
+    public int freeColors(boolean[] used_colors){
+        for(int i=0;i<used_colors.length;i++){
+            if(!used_colors[i])
+                return i;
         }
-
-        free_colors[this.getNode_color()] = false;
-
-        return free_colors;
-    }*/
+        return -1;
+    }
 
 
 }
