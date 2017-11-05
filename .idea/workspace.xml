@@ -2,63 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0476a28-ee90-4491-b5fc-7c0428a88b56" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/projects/clustering/Config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/projects/clustering/CustomGlobal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/projects/clustering/LogL.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/projects/clustering/description.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/projects/clustering/images/readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/projects/clustering/models/connectivityModels/readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/projects/clustering/models/distributionModels/readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/projects/clustering/models/interferenceModels/readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/projects/clustering/models/messageTransmissionModels/readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/projects/clustering/models/mobilityModels/readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/projects/clustering/models/reliabilityModels/readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/projects/clustering/nodes/edges/readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/projects/clustering/nodes/messages/C2Message.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/projects/clustering/nodes/messages/CMessage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/projects/clustering/nodes/messages/MMessage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/projects/clustering/nodes/messages/readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/projects/clustering/nodes/nodeImplementations/CNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/projects/clustering/nodes/nodeImplementations/NodeInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/projects/clustering/nodes/nodeImplementations/readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/projects/clustering/nodes/timers/C2Timer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/projects/clustering/nodes/timers/CTimer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/projects/clustering/nodes/timers/MTimer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/projects/clustering/nodes/timers/readme.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/projects/coloring_distance2/Config.xml.run" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2_2/Config.xml.run" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2/nodes/messages/CMessage.class" afterPath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2/nodes/messages/CMessage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2/nodes/messages/MMessage.class" afterPath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2/nodes/messages/MMessage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2/nodes/nodeImplementations/CNode.class" afterPath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2/nodes/nodeImplementations/CNode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2/nodes/nodeImplementations/NodeInfo.class" afterPath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2/nodes/nodeImplementations/NodeInfo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2/nodes/timers/C2Timer.class" afterPath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2/nodes/timers/C2Timer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2/nodes/timers/CTimer.class" afterPath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2/nodes/timers/CTimer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2/nodes/timers/MTimer.class" afterPath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2/nodes/timers/MTimer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2_2/nodes/messages/CMessage.class" afterPath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2_2/nodes/messages/CMessage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2_2/nodes/messages/MMessage.class" afterPath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2_2/nodes/messages/MMessage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2_2/nodes/nodeImplementations/CNode.class" afterPath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2_2/nodes/nodeImplementations/CNode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2_2/nodes/nodeImplementations/NodeInfo.class" afterPath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2_2/nodes/nodeImplementations/NodeInfo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2_2/nodes/timers/C2Timer.class" afterPath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2_2/nodes/timers/C2Timer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2_2/nodes/timers/CTimer.class" afterPath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2_2/nodes/timers/CTimer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2_2/nodes/timers/MTimer.class" afterPath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2_2/nodes/timers/MTimer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/projects/tdma/Config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/projects/tdma/CustomGlobal.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/projects/tdma/LogL.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/projects/tdma/description.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/projects/tdma/images/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/projects/tdma/models/connectivityModels/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/projects/tdma/models/distributionModels/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/projects/tdma/models/interferenceModels/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/projects/tdma/models/messageTransmissionModels/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/projects/tdma/models/mobilityModels/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/projects/tdma/models/reliabilityModels/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/projects/tdma/nodes/edges/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/projects/tdma/nodes/messages/C2Message.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/projects/tdma/nodes/messages/CMessage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/projects/tdma/nodes/messages/MMessage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/projects/tdma/nodes/messages/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/projects/tdma/nodes/nodeImplementations/CNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/projects/tdma/nodes/nodeImplementations/Interval.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/projects/tdma/nodes/nodeImplementations/NodeInfo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/projects/tdma/nodes/nodeImplementations/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/projects/tdma/nodes/timers/C2Timer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/projects/tdma/nodes/timers/CTimer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/projects/tdma/nodes/timers/MTimer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/projects/tdma/nodes/timers/readme.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2/Config.xml" afterPath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2/Config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/binaries/bin/projects/defaultProject/appConfig.xml" afterPath="$PROJECT_DIR$/binaries/bin/projects/defaultProject/appConfig.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2/Config.xml" afterPath="$PROJECT_DIR$/src/projects/coloring_distance2/Config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2/nodes/messages/CMessage.java" afterPath="$PROJECT_DIR$/src/projects/coloring_distance2/nodes/messages/CMessage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2/nodes/messages/MMessage.java" afterPath="$PROJECT_DIR$/src/projects/coloring_distance2/nodes/messages/MMessage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2/nodes/nodeImplementations/CNode.java" afterPath="$PROJECT_DIR$/src/projects/coloring_distance2/nodes/nodeImplementations/CNode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2/nodes/nodeImplementations/NodeInfo.java" afterPath="$PROJECT_DIR$/src/projects/coloring_distance2/nodes/nodeImplementations/NodeInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2/nodes/timers/C2Timer.java" afterPath="$PROJECT_DIR$/src/projects/coloring_distance2/nodes/timers/C2Timer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2/nodes/timers/CTimer.java" afterPath="$PROJECT_DIR$/src/projects/coloring_distance2/nodes/timers/CTimer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2/nodes/timers/MTimer.java" afterPath="$PROJECT_DIR$/src/projects/coloring_distance2/nodes/timers/MTimer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2_2/nodes/messages/CMessage.java" afterPath="$PROJECT_DIR$/src/projects/coloring_distance2_2/nodes/messages/CMessage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2_2/nodes/messages/MMessage.java" afterPath="$PROJECT_DIR$/src/projects/coloring_distance2_2/nodes/messages/MMessage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2_2/nodes/nodeImplementations/CNode.java" afterPath="$PROJECT_DIR$/src/projects/coloring_distance2_2/nodes/nodeImplementations/CNode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2_2/nodes/nodeImplementations/NodeInfo.java" afterPath="$PROJECT_DIR$/src/projects/coloring_distance2_2/nodes/nodeImplementations/NodeInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2_2/nodes/timers/C2Timer.java" afterPath="$PROJECT_DIR$/src/projects/coloring_distance2_2/nodes/timers/C2Timer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2_2/nodes/timers/CTimer.java" afterPath="$PROJECT_DIR$/src/projects/coloring_distance2_2/nodes/timers/CTimer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2_2/nodes/timers/MTimer.java" afterPath="$PROJECT_DIR$/src/projects/coloring_distance2_2/nodes/timers/MTimer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/projects/defaultProject/appConfig.xml" afterPath="$PROJECT_DIR$/src/projects/defaultProject/appConfig.xml" />
     </list>
     <ignored path="Sinalgo.iws" />
@@ -82,56 +50,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CNode.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/projects/clustering/nodes/nodeImplementations/CNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#updateSpectrum#0;class#CNode#0" expanded="false" />
-                <element signature="method#computeMIS#0;class#CNode#0" expanded="false" />
-                <element signature="method#computeColor#0;class#CNode#0" expanded="false" />
-                <element signature="method#intersection#0;class#CNode#0" expanded="false" />
-                <element signature="class#7549:7716" expanded="false" />
-                <element signature="e#7650#7651#0" expanded="true" />
-                <element signature="e#7705#7706#0" expanded="true" />
-                <element signature="e#7850#7851#0" expanded="true" />
-                <element signature="e#7905#7906#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="NodeInfo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/projects/clustering/nodes/nodeImplementations/NodeInfo.java">
+        <entry file="file://$PROJECT_DIR$/src/projects/tdma/nodes/nodeImplementations/NodeInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="45" column="48" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
+            <state relative-caret-position="1105">
+              <caret line="151" column="0" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1430#1431#0" expanded="true" />
-                <element signature="e#1618#1619#0" expanded="true" />
-                <element signature="e#1653#1654#0" expanded="true" />
-                <element signature="e#1710#1711#0" expanded="true" />
-                <element signature="e#1758#1759#0" expanded="true" />
-                <element signature="e#1805#1806#0" expanded="true" />
-                <element signature="e#1838#1839#0" expanded="true" />
-                <element signature="e#1900#1901#0" expanded="true" />
-                <element signature="e#1944#1945#0" expanded="true" />
-                <element signature="e#2384#2385#0" expanded="true" />
-                <element signature="e#2440#2441#0" expanded="true" />
+                <element signature="e#1440#1441#0" expanded="true" />
+                <element signature="e#1467#1468#0" expanded="true" />
+                <element signature="e#1508#1509#0" expanded="true" />
+                <element signature="e#1540#1541#0" expanded="true" />
+                <element signature="e#1731#1732#0" expanded="true" />
+                <element signature="e#1775#1776#0" expanded="true" />
+                <element signature="e#1835#1836#0" expanded="true" />
+                <element signature="e#1883#1884#0" expanded="true" />
+                <element signature="e#1929#1930#0" expanded="true" />
+                <element signature="e#1961#1962#0" expanded="true" />
+                <element signature="e#1996#1997#0" expanded="true" />
+                <element signature="e#2034#2035#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Config.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/projects/clustering/Config.xml">
+      <file leaf-file-name="CNode.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/projects/tdma/nodes/nodeImplementations/CNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="166" column="30" selection-start-line="166" selection-start-column="30" selection-end-line="166" selection-end-column="30" />
-              <folding />
+            <state relative-caret-position="-1005">
+              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#getDominatedNodes#0;class#CNode#0" expanded="false" />
+                <element signature="method#computePreferredColor#0;class#CNode#0" expanded="false" />
+                <element signature="method#computeColor#0;class#CNode#0" expanded="false" />
+                <element signature="class#7513:7703" expanded="false" />
+                <element signature="e#7617#7618#0" expanded="true" />
+                <element signature="e#7692#7693#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Interval.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/projects/tdma/nodes/nodeImplementations/Interval.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="565">
+              <caret line="61" column="44" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="44" />
+              <folding>
+                <element signature="e#316#317#0" expanded="true" />
+                <element signature="e#343#344#0" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
+                <element signature="e#510#511#0" expanded="true" />
+                <element signature="e#653#654#0" expanded="true" />
+                <element signature="e#700#701#0" expanded="true" />
+                <element signature="e#915#916#0" expanded="true" />
+                <element signature="e#939#940#0" expanded="true" />
+                <element signature="e#1254#1255#0" expanded="true" />
+                <element signature="e#1305#1306#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -187,6 +164,14 @@
         <option value="$PROJECT_DIR$/src/projects/clustering/Config.xml" />
         <option value="$PROJECT_DIR$/src/projects/clustering/nodes/nodeImplementations/NodeInfo.java" />
         <option value="$PROJECT_DIR$/src/projects/clustering/nodes/nodeImplementations/CNode.java" />
+        <option value="$PROJECT_DIR$/src/projects/tdma/nodes/messages/CMessage.java" />
+        <option value="$PROJECT_DIR$/src/projects/tdma/nodes/timers/C2Timer.java" />
+        <option value="$PROJECT_DIR$/src/projects/tdma/nodes/timers/CTimer.java" />
+        <option value="$PROJECT_DIR$/src/projects/tdma/nodes/timers/MTimer.java" />
+        <option value="$PROJECT_DIR$/src/projects/tdma/Config.xml" />
+        <option value="$PROJECT_DIR$/src/projects/tdma/nodes/nodeImplementations/Interval.java" />
+        <option value="$PROJECT_DIR$/src/projects/tdma/nodes/nodeImplementations/NodeInfo.java" />
+        <option value="$PROJECT_DIR$/src/projects/tdma/nodes/nodeImplementations/CNode.java" />
       </list>
     </option>
   </component>
@@ -354,7 +339,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sample5" />
+              <option name="myItemId" value="tdma" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -376,29 +361,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="clustering" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sinalgo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sinalgo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="clustering" />
+              <option name="myItemId" value="tdma" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -428,7 +391,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="clustering" />
+              <option name="myItemId" value="tdma" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -458,37 +421,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="clustering" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="messages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sinalgo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sinalgo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="clustering" />
+              <option name="myItemId" value="tdma" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -970,12 +903,12 @@
       <workItem from="1506703982511" duration="3124000" />
       <workItem from="1506759045088" duration="1092000" />
       <workItem from="1506766785456" duration="51685000" />
-      <workItem from="1509358216319" duration="12469000" />
+      <workItem from="1509358216319" duration="19735000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68370000" />
+    <option name="totallyTimeSpent" value="75636000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -988,7 +921,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -998,11 +931,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24267292" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21445782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17708333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18240343" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1039,65 +972,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/projects/coloring/nodes/timers/CTimer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/projects/coloring/nodes/messages/CMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/projects/sample6/nodes/edges/readme.txt" />
-    <entry file="file://$PROJECT_DIR$/src/projects/sample6/Config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="139" column="61" selection-start-line="139" selection-start-column="61" selection-end-line="139" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/projects/sample6/nodes/timers/CTimer.java" />
-    <entry file="file://$PROJECT_DIR$/src/projects/sample6/nodes/messages/CMessage.java" />
-    <entry file="file://$PROJECT_DIR$/src/projects/sample6/nodes/nodeImplementations/CNode.java" />
-    <entry file="file://$PROJECT_DIR$/src/sinalgo/nodes/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="274" column="23" selection-start-line="274" selection-start-column="23" selection-end-line="274" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/projects/coloring_distance2/Config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="130" column="60" selection-start-line="130" selection-start-column="60" selection-end-line="130" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/projects/coloring_distance2/nodes/edges/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/projects/coloring/nodes/nodeImplementations/CNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1920">
-          <caret line="138" column="77" selection-start-line="138" selection-start-column="77" selection-end-line="138" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/projects/coloring/nodes/messages/CMessage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1383,7 +1257,7 @@
         <state relative-caret-position="30">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1412,11 +1286,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/projects/clustering/Config.xml">
+    <entry file="file://$PROJECT_DIR$/src/projects/tdma/nodes/messages/C2Message.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="166" column="30" selection-start-line="166" selection-start-column="30" selection-end-line="166" selection-end-column="30" />
+        <state relative-caret-position="30">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/projects/tdma/nodes/edges/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/projects/clustering/nodes/nodeImplementations/CNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#updateSpectrum#0;class#CNode#0" expanded="false" />
+            <element signature="method#computeMIS#0;class#CNode#0" expanded="false" />
+            <element signature="method#computeColor#0;class#CNode#0" expanded="false" />
+            <element signature="method#intersection#0;class#CNode#0" expanded="false" />
+            <element signature="class#7549:7716" expanded="false" />
+            <element signature="e#7650#7651#0" expanded="false" />
+            <element signature="e#7705#7706#0" expanded="false" />
+            <element signature="e#7850#7851#0" expanded="false" />
+            <element signature="e#7905#7906#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1425,37 +1328,131 @@
         <state relative-caret-position="525">
           <caret line="45" column="48" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1430#1431#0" expanded="true" />
-            <element signature="e#1618#1619#0" expanded="true" />
-            <element signature="e#1653#1654#0" expanded="true" />
-            <element signature="e#1710#1711#0" expanded="true" />
-            <element signature="e#1758#1759#0" expanded="true" />
-            <element signature="e#1805#1806#0" expanded="true" />
-            <element signature="e#1838#1839#0" expanded="true" />
-            <element signature="e#1900#1901#0" expanded="true" />
-            <element signature="e#1944#1945#0" expanded="true" />
-            <element signature="e#2384#2385#0" expanded="true" />
-            <element signature="e#2440#2441#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1430#1431#0" expanded="false" />
+            <element signature="e#1618#1619#0" expanded="false" />
+            <element signature="e#1653#1654#0" expanded="false" />
+            <element signature="e#1710#1711#0" expanded="false" />
+            <element signature="e#1758#1759#0" expanded="false" />
+            <element signature="e#1805#1806#0" expanded="false" />
+            <element signature="e#1838#1839#0" expanded="false" />
+            <element signature="e#1900#1901#0" expanded="false" />
+            <element signature="e#1944#1945#0" expanded="false" />
+            <element signature="e#2384#2385#0" expanded="false" />
+            <element signature="e#2440#2441#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/projects/clustering/nodes/nodeImplementations/CNode.java">
+    <entry file="file://$PROJECT_DIR$/src/projects/clustering/Config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        <state relative-caret-position="105">
+          <caret line="166" column="30" selection-start-line="166" selection-start-column="30" selection-end-line="166" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/projects/tdma/nodes/messages/CMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/projects/tdma/nodes/messages/MMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/projects/tdma/nodes/timers/C2Timer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/projects/tdma/nodes/timers/CTimer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/projects/tdma/nodes/timers/MTimer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/projects/tdma/Config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="133" column="46" selection-start-line="133" selection-start-column="46" selection-end-line="133" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/projects/tdma/nodes/nodeImplementations/Interval.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="61" column="44" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="44" />
+          <folding>
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#915#916#0" expanded="true" />
+            <element signature="e#939#940#0" expanded="true" />
+            <element signature="e#1254#1255#0" expanded="true" />
+            <element signature="e#1305#1306#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/projects/tdma/nodes/nodeImplementations/NodeInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="151" column="0" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#updateSpectrum#0;class#CNode#0" expanded="false" />
-            <element signature="method#computeMIS#0;class#CNode#0" expanded="false" />
+            <element signature="e#1440#1441#0" expanded="true" />
+            <element signature="e#1467#1468#0" expanded="true" />
+            <element signature="e#1508#1509#0" expanded="true" />
+            <element signature="e#1540#1541#0" expanded="true" />
+            <element signature="e#1731#1732#0" expanded="true" />
+            <element signature="e#1775#1776#0" expanded="true" />
+            <element signature="e#1835#1836#0" expanded="true" />
+            <element signature="e#1883#1884#0" expanded="true" />
+            <element signature="e#1929#1930#0" expanded="true" />
+            <element signature="e#1961#1962#0" expanded="true" />
+            <element signature="e#1996#1997#0" expanded="true" />
+            <element signature="e#2034#2035#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/projects/tdma/nodes/nodeImplementations/CNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1005">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getDominatedNodes#0;class#CNode#0" expanded="false" />
+            <element signature="method#computePreferredColor#0;class#CNode#0" expanded="false" />
             <element signature="method#computeColor#0;class#CNode#0" expanded="false" />
-            <element signature="method#intersection#0;class#CNode#0" expanded="false" />
-            <element signature="class#7549:7716" expanded="false" />
-            <element signature="e#7650#7651#0" expanded="true" />
-            <element signature="e#7705#7706#0" expanded="true" />
-            <element signature="e#7850#7851#0" expanded="true" />
-            <element signature="e#7905#7906#0" expanded="true" />
+            <element signature="class#7513:7703" expanded="false" />
+            <element signature="e#7617#7618#0" expanded="true" />
+            <element signature="e#7692#7693#0" expanded="true" />
           </folding>
         </state>
       </provider>
