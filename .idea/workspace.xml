@@ -2,29 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0476a28-ee90-4491-b5fc-7c0428a88b56" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/binaries/bin/projects/defaultProject/models/mobilityModels/NoMobility.class" afterPath="$PROJECT_DIR$/binaries/bin/projects/defaultProject/models/mobilityModels/NoMobility.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample5/nodes/nodeImplementations/FNode.class" afterPath="$PROJECT_DIR$/binaries/bin/projects/sample5/nodes/nodeImplementations/FNode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/binaries/bin/sinalgo/Run.class" afterPath="$PROJECT_DIR$/binaries/bin/sinalgo/Run.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/binaries/bin/sinalgo/configuration/Configuration.class" afterPath="$PROJECT_DIR$/binaries/bin/sinalgo/configuration/Configuration.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/binaries/bin/sinalgo/gui/helper/Arrow.class" afterPath="$PROJECT_DIR$/binaries/bin/sinalgo/gui/helper/Arrow.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/binaries/bin/sinalgo/gui/helper/NonRegularGridLayout.class" afterPath="$PROJECT_DIR$/binaries/bin/sinalgo/gui/helper/NonRegularGridLayout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/binaries/bin/sinalgo/io/eps/Exporter.class" afterPath="$PROJECT_DIR$/binaries/bin/sinalgo/io/eps/Exporter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/binaries/bin/sinalgo/io/mapIO/Map.class" afterPath="$PROJECT_DIR$/binaries/bin/sinalgo/io/mapIO/Map.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/binaries/bin/sinalgo/io/versionTest/VersionTester.class" afterPath="$PROJECT_DIR$/binaries/bin/sinalgo/io/versionTest/VersionTester.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/binaries/bin/sinalgo/models/Model.class" afterPath="$PROJECT_DIR$/binaries/bin/sinalgo/models/Model.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/binaries/bin/sinalgo/nodes/Node.class" afterPath="$PROJECT_DIR$/binaries/bin/sinalgo/nodes/Node.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/binaries/bin/sinalgo/nodes/edges/Edge.class" afterPath="$PROJECT_DIR$/binaries/bin/sinalgo/nodes/edges/Edge.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/binaries/bin/sinalgo/runtime/Main.class" afterPath="$PROJECT_DIR$/binaries/bin/sinalgo/runtime/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/binaries/bin/sinalgo/runtime/MyUncaughtExceptionHandler.class" afterPath="$PROJECT_DIR$/binaries/bin/sinalgo/runtime/MyUncaughtExceptionHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/binaries/bin/sinalgo/runtime/Runtime.class" afterPath="$PROJECT_DIR$/binaries/bin/sinalgo/runtime/Runtime.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/binaries/bin/sinalgo/runtime/events/PacketEvent.class" afterPath="$PROJECT_DIR$/binaries/bin/sinalgo/runtime/events/PacketEvent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/binaries/bin/sinalgo/runtime/nodeCollection/Geometric3DNodeCollection.class" afterPath="$PROJECT_DIR$/binaries/bin/sinalgo/runtime/nodeCollection/Geometric3DNodeCollection.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/binaries/bin/sinalgo/tools/Tools.class" afterPath="$PROJECT_DIR$/binaries/bin/sinalgo/tools/Tools.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2_new/nodes/nodeImplementations/CNode.java" afterPath="$PROJECT_DIR$/src/projects/coloring_distance2_new/nodes/nodeImplementations/CNode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2_new/nodes/nodeImplementations/SpectrumManager.java" afterPath="$PROJECT_DIR$/src/projects/coloring_distance2_new/nodes/nodeImplementations/SpectrumManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/projects/defaultProject/appConfig.xml" afterPath="$PROJECT_DIR$/src/projects/defaultProject/appConfig.xml" />
     </list>
     <ignored path="Sinalgo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -719,12 +698,12 @@
       <workItem from="1506759045088" duration="1092000" />
       <workItem from="1506766785456" duration="51685000" />
       <workItem from="1509358216319" duration="28938000" />
-      <workItem from="1510059301759" duration="641000" />
+      <workItem from="1510059301759" duration="1556000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85480000" />
+    <option name="totallyTimeSpent" value="86395000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -737,7 +716,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1368" height="912" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -748,8 +726,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11455847" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32816228" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11455847" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32816228" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18504532" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
