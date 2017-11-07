@@ -20,19 +20,8 @@ public class CNode extends Node {
 
     private NodeManager nodeManager;
 
-    private final int nb = 10;
-    private final Color tab[] = {Color.BLUE,Color.CYAN,Color.GREEN,Color.LIGHT_GRAY,Color.MAGENTA,Color.ORANGE,Color.PINK,Color.RED,Color.WHITE,Color.YELLOW};
-
-    //--------------------------------
-
-
     public NodeManager getNodeManager() {
         return nodeManager;
-    }
-
-    public void initNodeColor(int range){
-        this.nodeManager.getSpectrumManager().getMySelf().setColor(0);
-        //setNode_color((int) (Math.random() * range) % range);
     }
 
     public void handleMessages(Inbox inbox) {
@@ -110,14 +99,4 @@ public class CNode extends Node {
 
         super.drawNodeAsDiskWithText(g, pt, highlight, text, 20, c);
     }
-
-    public int freeColors(boolean[] used_colors){
-        for(int i=0;i<used_colors.length;i++){
-            if(!used_colors[i])
-                return i;
-        }
-        return -1;
-    }
-
-
 }

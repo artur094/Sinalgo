@@ -2,8 +2,311 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0476a28-ee90-4491-b5fc-7c0428a88b56" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2/Config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2/Config.xml.run" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2/CustomGlobal.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2/LogL.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2/description.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2/images/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2/models/connectivityModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2/models/distributionModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2/models/interferenceModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2/models/messageTransmissionModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2/models/mobilityModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2/models/reliabilityModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2/nodes/edges/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2/nodes/messages/C2Message.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2/nodes/messages/CMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2/nodes/messages/MMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2/nodes/messages/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2/nodes/nodeImplementations/CNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2/nodes/nodeImplementations/NodeInfo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2/nodes/nodeImplementations/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2/nodes/timers/C2Timer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2/nodes/timers/CTimer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2/nodes/timers/MTimer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2/nodes/timers/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2_2/Config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2_2/CustomGlobal.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2_2/LogL.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2_2/description.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2_2/images/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2_2/models/connectivityModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2_2/models/distributionModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2_2/models/interferenceModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2_2/models/messageTransmissionModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2_2/models/mobilityModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2_2/models/reliabilityModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2_2/nodes/edges/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2_2/nodes/messages/C2Message.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2_2/nodes/messages/CMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2_2/nodes/messages/MMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2_2/nodes/messages/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2_2/nodes/nodeImplementations/CNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2_2/nodes/nodeImplementations/NodeInfo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2_2/nodes/nodeImplementations/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2_2/nodes/timers/C2Timer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2_2/nodes/timers/CTimer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2_2/nodes/timers/MTimer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/coloring_distance2_2/nodes/timers/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample1/Config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample1/CustomGlobal.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample1/LogL.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample1/description.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample1/images/OK.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample1/models/connectivityModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample1/models/distributionModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample1/models/interferenceModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample1/models/messageTransmissionModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample1/models/mobilityModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample1/models/reliabilityModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample1/nodes/edges/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample1/nodes/messages/S1Message.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample1/nodes/messages/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample1/nodes/nodeImplementations/S1Node.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample1/nodes/nodeImplementations/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample1/nodes/timers/DelayTimer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample1/nodes/timers/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample1/run.pl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample2/Config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample2/CustomGlobal.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample2/LogL.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample2/description.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample2/images/map.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample2/images/map2.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample2/images/map3.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample2/models/connectivityModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample2/models/distributionModels/LakeAvoidRandomDistribution.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample2/models/distributionModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample2/models/interferenceModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample2/models/messageTransmissionModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample2/models/mobilityModels/LakeAvoid.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample2/models/mobilityModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample2/models/reliabilityModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample2/nodes/edges/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample2/nodes/messages/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample2/nodes/nodeImplementations/S2Node.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample2/nodes/nodeImplementations/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample2/nodes/timers/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample3/Config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample3/CustomGlobal.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample3/description.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample3/models/connectivityModels/AntennaConnection.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample3/models/distributionModels/GridDistribution.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample3/models/interferenceModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample3/models/messageTransmissionModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample3/models/mobilityModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample3/models/reliabilityModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample3/nodes/edges/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample3/nodes/messages/ByeBye.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample3/nodes/messages/InviteMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample3/nodes/messages/SmsAckMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample3/nodes/messages/SmsMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample3/nodes/messages/SubscirbeMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample3/nodes/nodeImplementations/Antenna$NodeComparer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample3/nodes/nodeImplementations/Antenna.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample3/nodes/nodeImplementations/MobileNode$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample3/nodes/nodeImplementations/MobileNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample3/nodes/timers/AntennaNeighborhoodClearTimer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample3/nodes/timers/InviteMsgTimer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample3/nodes/timers/SmsTimer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample4/Config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample4/CustomGlobal.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample4/LogL.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample4/description.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample4/images/blue.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample4/images/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample4/images/red.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample4/models/connectivityModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample4/models/distributionModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample4/models/interferenceModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample4/models/messageTransmissionModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample4/models/mobilityModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample4/models/reliabilityModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample4/nodes/edges/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample4/nodes/messages/S4Message.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample4/nodes/messages/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample4/nodes/nodeImplementations/S4Node$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample4/nodes/nodeImplementations/S4Node$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample4/nodes/nodeImplementations/S4Node$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample4/nodes/nodeImplementations/S4Node.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample4/nodes/nodeImplementations/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample4/nodes/timers/S4SendDirectTimer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/binaries/bin/projects/sample4/nodes/timers/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/clustering/nodes/timers/MTimer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2/Config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2/Config.xml.run" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2/CustomGlobal.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2/LogL.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2/description.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2/images/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2/models/connectivityModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2/models/distributionModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2/models/interferenceModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2/models/messageTransmissionModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2/models/mobilityModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2/models/reliabilityModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2/nodes/edges/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2/nodes/messages/C2Message.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2/nodes/messages/CMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2/nodes/messages/MMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2/nodes/messages/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2/nodes/nodeImplementations/CNode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2/nodes/nodeImplementations/NodeInfo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2/nodes/nodeImplementations/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2/nodes/timers/C2Timer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2/nodes/timers/CTimer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2/nodes/timers/MTimer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2/nodes/timers/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2_2/Config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2_2/CustomGlobal.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2_2/LogL.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2_2/description.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2_2/images/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2_2/models/connectivityModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2_2/models/distributionModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2_2/models/interferenceModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2_2/models/messageTransmissionModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2_2/models/mobilityModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2_2/models/reliabilityModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2_2/nodes/edges/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2_2/nodes/messages/C2Message.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2_2/nodes/messages/CMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2_2/nodes/messages/MMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2_2/nodes/messages/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2_2/nodes/nodeImplementations/CNode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2_2/nodes/nodeImplementations/NodeInfo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2_2/nodes/nodeImplementations/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2_2/nodes/timers/C2Timer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2_2/nodes/timers/CTimer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2_2/nodes/timers/MTimer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2_2/nodes/timers/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/defaultProject/LogL.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/defaultProject/appConfig.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/defaultProject/description.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/defaultProject/models/connectivityModels/QUDG.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/defaultProject/models/connectivityModels/StaticConnectivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/defaultProject/models/connectivityModels/StaticUDG.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/defaultProject/models/connectivityModels/UDG.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/defaultProject/models/distributionModels/Circle.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/defaultProject/models/distributionModels/Grid2D.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/defaultProject/models/distributionModels/Line2D.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/defaultProject/models/distributionModels/PositionFile.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/defaultProject/models/distributionModels/Random.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/defaultProject/models/interferenceModels/NoInterference.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/defaultProject/models/interferenceModels/SINR.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/defaultProject/models/messageTransmissionModels/ConstantTime.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/defaultProject/models/messageTransmissionModels/RandomTime.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/defaultProject/models/mobilityModels/NoMobility.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/defaultProject/models/mobilityModels/PerfectRWP.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/defaultProject/models/mobilityModels/RandomDirection.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/defaultProject/models/mobilityModels/RandomWayPoint.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/defaultProject/models/reliabilityModels/LossyDelivery.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/defaultProject/models/reliabilityModels/ReliableDelivery.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/defaultProject/nodes/edges/BidirectionalBooleanEdge.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/defaultProject/nodes/edges/BooleanEdge.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/defaultProject/nodes/messages/IntMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/defaultProject/nodes/messages/StringMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/defaultProject/nodes/nodeImplementations/DummyNode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/defaultProject/nodes/timers/DirectMessageTimer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/defaultProject/nodes/timers/MessageTimer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample1/Config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample1/CustomGlobal.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample1/LogL.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample1/description.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample1/images/OK.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample1/models/connectivityModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample1/models/distributionModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample1/models/interferenceModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample1/models/messageTransmissionModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample1/models/mobilityModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample1/models/reliabilityModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample1/nodes/edges/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample1/nodes/messages/S1Message.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample1/nodes/messages/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample1/nodes/nodeImplementations/S1Node.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample1/nodes/nodeImplementations/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample1/nodes/timers/DelayTimer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample1/nodes/timers/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample1/run.pl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample2/Config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample2/CustomGlobal.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample2/LogL.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample2/description.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample2/images/map.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample2/images/map2.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample2/images/map3.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample2/models/connectivityModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample2/models/distributionModels/LakeAvoidRandomDistribution.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample2/models/distributionModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample2/models/interferenceModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample2/models/messageTransmissionModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample2/models/mobilityModels/LakeAvoid.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample2/models/mobilityModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample2/models/reliabilityModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample2/nodes/edges/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample2/nodes/messages/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample2/nodes/nodeImplementations/S2Node.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample2/nodes/nodeImplementations/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample2/nodes/timers/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample3/Config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample3/CustomGlobal.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample3/description.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample3/models/connectivityModels/AntennaConnection.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample3/models/distributionModels/GridDistribution.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample3/models/interferenceModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample3/models/messageTransmissionModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample3/models/mobilityModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample3/models/reliabilityModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample3/nodes/edges/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample3/nodes/messages/ByeBye.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample3/nodes/messages/InviteMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample3/nodes/messages/SmsAckMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample3/nodes/messages/SmsMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample3/nodes/messages/SubscirbeMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample3/nodes/nodeImplementations/Antenna.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample3/nodes/nodeImplementations/MobileNode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample3/nodes/timers/AntennaNeighborhoodClearTimer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample3/nodes/timers/InviteMsgTimer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample3/nodes/timers/SmsTimer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample4/Config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample4/CustomGlobal.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample4/LogL.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample4/description.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample4/images/blue.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample4/images/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample4/images/red.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample4/models/connectivityModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample4/models/distributionModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample4/models/interferenceModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample4/models/messageTransmissionModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample4/models/mobilityModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample4/models/reliabilityModels/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample4/nodes/edges/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample4/nodes/messages/S4Message.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample4/nodes/messages/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample4/nodes/nodeImplementations/S4Node.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample4/nodes/nodeImplementations/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample4/nodes/timers/S4SendDirectTimer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample4/nodes/timers/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample5/Config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample5/CustomGlobal.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample5/description.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample5/nodes/edges/BigEdge.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample5/nodes/messages/AckPayload.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample5/nodes/messages/FloodFindMsg.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample5/nodes/messages/PayloadMsg.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample5/nodes/nodeImplementations/FNode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample5/nodes/timers/PayloadMessageTimer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample5/nodes/timers/RetryFloodingTimer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample5/nodes/timers/RetryPayloadMessageTimer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample6/Config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample6/CustomGlobal.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample6/description.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample6/nodes/messages/MarkMessage.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample6/nodes/nodeImplementations/LeafNode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/projects/sample6/nodes/nodeImplementations/TreeNode.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/projects/coloring_distance2_new/nodes/nodeImplementations/CNode.java" afterPath="$PROJECT_DIR$/src/projects/coloring_distance2_new/nodes/nodeImplementations/CNode.java" />
     </list>
     <ignored path="Sinalgo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,33 +327,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SpectrumManager.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/projects/coloring_distance2_new/nodes/nodeImplementations/SpectrumManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="63" column="79" lean-forward="false" selection-start-line="63" selection-start-column="79" selection-end-line="63" selection-end-column="79" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NodeManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/projects/coloring_distance2_new/nodes/nodeImplementations/NodeManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="49" column="38" lean-forward="false" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CNode.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CNode.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/projects/coloring_distance2_new/nodes/nodeImplementations/CNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="106" column="72" lean-forward="false" selection-start-line="106" selection-start-column="72" selection-end-line="106" selection-end-column="72" />
+            <state relative-caret-position="602">
+              <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,11 +342,20 @@
       <file leaf-file-name="NodeInfo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/projects/coloring_distance2_new/nodes/nodeImplementations/NodeInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="-489">
               <caret line="17" column="42" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NodeManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/projects/coloring_distance2_new/nodes/nodeImplementations/NodeManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="799">
+              <caret line="49" column="38" lean-forward="false" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
               <folding>
-                <element signature="e#1377#1378#0" expanded="true" />
-                <element signature="e#1419#1420#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -134,8 +424,8 @@
         <option value="$PROJECT_DIR$/src/projects/coloring_distance2_new/nodes/messages/CMessage.java" />
         <option value="$PROJECT_DIR$/src/projects/coloring_distance2_new/nodes/nodeImplementations/NodeManager.java" />
         <option value="$PROJECT_DIR$/src/projects/coloring_distance2_new/nodes/nodeImplementations/NodeInfo.java" />
-        <option value="$PROJECT_DIR$/src/projects/coloring_distance2_new/nodes/nodeImplementations/CNode.java" />
         <option value="$PROJECT_DIR$/src/projects/coloring_distance2_new/nodes/nodeImplementations/SpectrumManager.java" />
+        <option value="$PROJECT_DIR$/src/projects/coloring_distance2_new/nodes/nodeImplementations/CNode.java" />
       </list>
     </option>
   </component>
@@ -181,6 +471,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,36 +490,11 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="projects" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Sinalgo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sinalgo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="projects" type="462c0819:PsiDirectoryNode" />
-              <item name="coloring_distance2_new" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sinalgo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sinalgo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="projects" type="462c0819:PsiDirectoryNode" />
-              <item name="coloring_distance2_new" type="462c0819:PsiDirectoryNode" />
-              <item name="nodes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sinalgo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sinalgo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="projects" type="462c0819:PsiDirectoryNode" />
-              <item name="coloring_distance2_new" type="462c0819:PsiDirectoryNode" />
-              <item name="nodes" type="462c0819:PsiDirectoryNode" />
-              <item name="nodeImplementations" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -703,7 +969,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86395000" />
+    <option name="totallyTimeSpent" value="86633000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -715,35 +981,55 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1368" height="912" extended-state="0" />
+    <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32816228" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32712767" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11455847" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32816228" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36569148" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18504532" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18820861" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1641266" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1641266" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11455847" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32816228" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18504532" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -800,20 +1086,11 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/projects/coloring_distance2/nodes/messages/C2Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/projects/coloring_distance2/nodes/nodeImplementations/CNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="411" column="46" lean-forward="false" selection-start-line="411" selection-start-column="12" selection-end-line="411" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -821,9 +1098,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -880,9 +1155,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="33" lean-forward="false" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -897,9 +1170,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1485">
           <caret line="17" column="15" lean-forward="false" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -942,9 +1213,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="196" column="5" lean-forward="false" selection-start-line="196" selection-start-column="5" selection-end-line="196" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -959,10 +1228,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="15" column="61" lean-forward="false" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
-          <folding>
-            <element signature="e#2398#2399#0" expanded="false" />
-            <element signature="e#2439#2440#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1102,16 +1368,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="24" column="51" lean-forward="false" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#739#740#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/projects/coloring_distance2_new/nodes/nodeImplementations/SpectrumManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="63" column="79" lean-forward="false" selection-start-line="63" selection-start-column="79" selection-end-line="63" selection-end-column="79" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/projects/coloring_distance2_new/nodes/nodeImplementations/NodeManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
+        <state relative-caret-position="799">
           <caret line="49" column="38" lean-forward="false" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1121,29 +1391,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/projects/coloring_distance2_new/nodes/nodeImplementations/NodeInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="-489">
           <caret line="17" column="42" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="42" />
-          <folding>
-            <element signature="e#1377#1378#0" expanded="true" />
-            <element signature="e#1419#1420#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/projects/coloring_distance2_new/nodes/nodeImplementations/CNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="106" column="72" lean-forward="false" selection-start-line="106" selection-start-column="72" selection-end-line="106" selection-end-column="72" />
+        <state relative-caret-position="602">
+          <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/projects/coloring_distance2_new/nodes/nodeImplementations/SpectrumManager.java">
+    <entry file="file://$PROJECT_DIR$/src/projects/clustering/nodes/timers/MTimer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="63" column="79" lean-forward="false" selection-start-line="63" selection-start-column="79" selection-end-line="63" selection-end-column="79" />
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
