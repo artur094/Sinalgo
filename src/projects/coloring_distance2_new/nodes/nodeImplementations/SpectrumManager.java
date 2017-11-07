@@ -57,7 +57,7 @@ public class SpectrumManager {
         return my_neighbours_spectrum.get(neighbour_id);
     }
 
-    public SpectrumManager addMyNeighbourSpectrum(NodeInfo neighbour, SpectrumManager neighbour_spectrum){
+    public void addMyNeighbourSpectrum(NodeInfo neighbour, SpectrumManager neighbour_spectrum){
         if(this.my_neighbours_spectrum.keySet().contains(neighbour.getId()))
             this.my_neighbours_spectrum.remove(neighbour.getId());
 

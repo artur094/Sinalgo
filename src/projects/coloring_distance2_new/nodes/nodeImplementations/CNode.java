@@ -35,35 +35,6 @@ public class CNode extends Node {
         //setNode_color((int) (Math.random() * range) % range);
     }
 
-    public ArrayList<Integer> getDominatedNodes(){
-
-        ArrayList<Integer> dominated = new ArrayList<>();
-
-        for (NodeInfo nodeInfo : this.me.getSpectrum()) {
-            Integer dominant = nodeInfo.getDominator();
-
-            if(dominant != null && dominant == this.ID)
-                dominated.add(nodeInfo.getId());
-        }
-        if(this.me.isDominant())
-            dominated.add(this.ID);
-
-        return dominated;
-    }
-
-    /*
-     * La fonction "compute" est lancŽe ˆ chaque rŽception
-     * de message. Elle permet de changer la color du noeud si nŽcessaire
-     */
-    public void computeColor(int dominator, int color){
-        if(dominator == this.me.getDominator()){
-
-        }
-    }
-
-    /* La fonction ci-dessous est appelŽe
-     * ˆ chque rŽception de message.
-     */
     public void handleMessages(Inbox inbox) {
 
         if(inbox.hasNext()==false) return;
@@ -73,45 +44,8 @@ public class CNode extends Node {
             Message msg=inbox.next();
 
             if(msg instanceof CMessage){
-                //Update the spectrum
-                updateSpectrum(((CMessage) msg).id, ((CMessage) msg).dominator, ((CMessage) msg).color, ((CMessage) msg).dominator_color, ((CMessage) msg).number_neighbours);
 
-                //Update neighbor spectrum
-                this.me.setNeighbourSpectrum(((CMessage) msg).id, ((CMessage) msg).spectrum);
-
-                HashSet<NodeInfo> whole_spectrum = new HashSet<>();
-
-                for (Integer key : ((CMessage) msg).myself.getNeighbour_spectrum().keySet()){
-                    whole_spectrum.addAll(((CMessage) msg).myself.getNeighbourSpectrum(key));
-                }
-                whole_spectrum.addAll(((CMessage) msg).spectrum);
-                whole_spectrum.addAll(getSpectrum());
-
-                computeMIS(whole_spectrum);
-
-                //Update my color if the msg comes from my leader
-
-                if(((CMessage) msg).id == this.getDominator()){
-                    for(NodeInfo nd : ((CMessage) msg).spectrum){
-                        if(nd.getId() == this.ID){
-                            if(nd.getPreferredColor() != null)
-                            {
-                                this.me.setColor(nd.getPreferredColor());
-
-                                //TODO: remove useless int c
-                                int c;
-                            }
-                        }
-                    }
-                }
-
-                //Update my info in the spectrum
-
-                Integer color = this.getMe().getDominatorColor();
-                if(((CMessage) msg).id == this.getDominator())
-                    color = ((CMessage) msg).color;
-
-                updateSpectrum(this.ID, this.me.getDominator(), this.me.getColor(), color, 0);
+                nodeManager.parseMessage((CMessage)msg);
             }
 
 
@@ -131,9 +65,8 @@ public class CNode extends Node {
 	 */
 
     public void init() {
-        me = new NodeInfo(this.ID, this.ID, 0, this.outgoingConnections.size());
-
-        this.initNodeColor(nb);
+        NodeInfo me = new NodeInfo(this.ID, this.ID, 0, this.outgoingConnections.size());
+        this.nodeManager = new NodeManager(me, this.outgoingConnections.size());
 
         (new CTimer(this, 50)).startRelative(50, this);
         //(new CTimer(this, 50)).startRelative(50, this);
@@ -162,16 +95,16 @@ public class CNode extends Node {
 
     public void draw(Graphics g, PositionTransformation pt, boolean highlight) {
         Color c;
-        this.setColor(this.RGBColor());
+        this.setColor(this.nodeManager.getRGBColor(this.nodeManager.getSpectrumManager().getMySelf().getColor()));
 
         String text = ""+this.ID;
-        if(this.me.isDominant()) {
+        if(this.getNodeManager().getSpectrumManager().getMySelf().isDominant()) {
             text += "D";
-            text += this.me.getDominator();
+            text += this.getNodeManager().getSpectrumManager().getMySelf().getDominator();
         }
         else{
             text+="-";
-            text+=this.me.getDominator();
+            text+=this.getNodeManager().getSpectrumManager().getMySelf().getDominator();
         }
         c=Color.BLACK;
 
