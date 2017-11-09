@@ -1,9 +1,7 @@
 package projects.clustering.nodes.messages;
 
-import projects.clustering.nodes.nodeImplementations.NodeInfo;
+import projects.clustering.nodes.nodeImplementations.SpectrumManager;
 import sinalgo.nodes.messages.Message;
-
-import java.util.HashSet;
 
 /* description de l'unique type de message utilisŽ
  * dans l'application
@@ -11,26 +9,17 @@ import java.util.HashSet;
 
 public class CMessage extends Message {
 
-    public int id;
-    public int color;
-    public int dominator;
-    public int dominator_color;
-    public int number_neighbours;
-    public HashSet<NodeInfo> spectrum;
-    public NodeInfo myself;
+    private SpectrumManager mySpectrumManager;
 
-    public CMessage(int id, int color, int dominator, int dominator_color, int number_neighbours, HashSet<NodeInfo> spectrum, NodeInfo myself) {
-        this.id=id;
-        this.color = color;
-        this.dominator = dominator;
-        this.spectrum = spectrum;
-        this.number_neighbours = number_neighbours;
-        this.dominator_color = dominator_color;
-        this.myself = myself;
+    public CMessage(SpectrumManager spectrumManager) {
+        this.mySpectrumManager = spectrumManager;
     }
 
     public Message clone() {
-        return new CMessage(id,color, dominator,dominator_color, number_neighbours, spectrum, myself);
+        return new CMessage(this.mySpectrumManager);
     }
 
+    public SpectrumManager getMySpectrumManager() {
+        return mySpectrumManager;
+    }
 }

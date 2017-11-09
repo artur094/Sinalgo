@@ -1,6 +1,4 @@
-package projects.tdma_new.nodes.nodeImplementations;
-
-import projects.tdma_new.nodes.nodeImplementations.*;
+package projects.tdma.nodes.nodeImplementations;
 
 import java.util.HashSet;
 import java.util.Hashtable;
@@ -72,6 +70,16 @@ public class SpectrumManager {
             for (Integer id_neighbour : getMyNeighboursSpectrum().get(id).getMyNeighboursSpectrum().keySet()){
                 spectrum.addAll(getMyNeighbourSpectrum(id).getMyNeighbourSpectrum(id_neighbour).getMySpectrum());
             }
+        }
+        return spectrum;
+    }
+
+    public HashSet<NodeInfo> getSpectrumDitansce2(){
+        HashSet<NodeInfo> spectrum = new HashSet<>();
+        spectrum.addAll(my_spectrum);
+
+        for (Integer id : my_neighbours_spectrum.keySet()) {
+            spectrum.addAll(my_neighbours_spectrum.get(id).getMySpectrum());
         }
         return spectrum;
     }

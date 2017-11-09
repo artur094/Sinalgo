@@ -1,6 +1,4 @@
-package projects.clustering_new.nodes.nodeImplementations;
-
-import projects.clustering_new.nodes.nodeImplementations.*;
+package projects.clustering.nodes.nodeImplementations;
 
 import java.util.HashSet;
 import java.util.Hashtable;

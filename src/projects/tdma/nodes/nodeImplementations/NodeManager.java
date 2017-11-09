@@ -1,9 +1,10 @@
-package projects.clustering_new.nodes.nodeImplementations;
+package projects.tdma.nodes.nodeImplementations;
 
-import projects.clustering_new.nodes.messages.CMessage;
-import projects.clustering_new.nodes.nodeImplementations.*;
+import projects.tdma.nodes.messages.CMessage;
 
 import java.awt.*;
+import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.HashSet;
 
 /**
@@ -43,6 +44,15 @@ public class NodeManager {
 
         //Update the spectrum with my new data
         this.getSpectrumManager().addMyNeighbours(this.getSpectrumManager().getMySelf());
+
+        this.getSpectrumManager().getMySelf().setColorBase(this.getBase());
+
+        computeTDMA();
+
+        System.out.print("Node " + this.getSpectrumManager().getMySelf().getId() + " with base " + this.getSpectrumManager().getMySelf().getColorBase() + " ");
+        for (Interval i : this.getSpectrumManager().getMySelf().getIntervals())
+            System.out.print(i.toString() + ", ");
+        System.out.println();
     }
 
     public void computeMIS(){
@@ -118,6 +128,28 @@ public class NodeManager {
         }
     }
 
+    public void computeTDMA(){
+        HashSet<Interval> intervals = new HashSet<>();
+
+        HashSet<NodeInfo> tmp = this.getSpectrumManager().getSpectrumDitansce2();
+
+        for (NodeInfo nd : tmp){
+            if(nd.getColorBase() > this.getSpectrumManager().getMySelf().getColorBase() ||
+                    (nd.getColorBase().equals(this.getSpectrumManager().getMySelf().getColorBase()) && nd.getColor() < this.getSpectrumManager().getMySelf().getColor())){
+                intervals.addAll(nd.getIntervals());
+            }
+        }
+        this.getSpectrumManager().getMySelf().clearIntervals();
+        this.getSpectrumManager().getMySelf().addIntervals(g(this.getSpectrumManager().getMySelf().getColorBase(), intervals));
+    }
+
+    public Integer getBase(){
+        Integer count = 0;
+        for(NodeInfo nd : this.getSpectrumManager().getSpectrumDitansce2())
+            count++;
+        return count;
+    }
+
     public SpectrumManager getSpectrumManager() {
         return spectrumManager;
     }
@@ -132,5 +164,71 @@ public class NodeManager {
                 return i;
         }
         return -1;
+    }
+
+    private HashSet<Interval> g(Integer base, HashSet<Interval> S){
+        //Return all free interval which are not used at distance N2
+        //Maybe I can just return 1 interval (?), the biggest with the constraint that interval is less than 1/base
+
+        //Let's try:
+        //Return the biggest interval great up to 1/base
+        //How:
+        //1 - Convert the hashset into an arraylist
+        //2 - Sort the arraylist
+        //3 - Get free intervals from the arraylist
+        //4 - Store the number of intervals such that I will get the maximum time possible (constrained by 1/base)
+
+        Double max_interval = 1.0/(double)base;
+        HashSet<Interval> final_intervals = new HashSet<>();
+
+        //1 - Convert the hashset into an arraylist
+        ArrayList<Interval> intervals = new ArrayList<>();
+        intervals.addAll(S);
+
+        //2 - Sort the arraylist
+        intervals.sort(new Comparator<Interval>() {
+            @Override
+            public int compare(Interval o1, Interval o2) {
+                return o1.getLeft().compareTo(o2.getLeft());
+            }
+        });
+
+        //3 - Get free intervals from the arraylist
+        ArrayList<Interval> free_intervals = new ArrayList<>();
+
+        Double free_interval_left = 0.0;
+        for(Interval i : intervals){
+            if(i.getLeft() > free_interval_left){
+                free_intervals.add(new Interval(free_interval_left, i.getLeft()));
+            }
+            free_interval_left = i.getRight();
+        }
+        if(free_interval_left < 1.0)
+            free_intervals.add(new Interval(free_interval_left, 1.0));
+
+        //4 - too long to rewrite
+
+        //search for an interval > than 1/base (so it will be contiguous
+        for (Interval i : free_intervals){
+            //System.out.println("Node " + this.getSpectrumManager().getMySelf().getId() + " interval " + i.toString() + " with base " + this.getSpectrumManager().getMySelf().getColorBase());
+            if(i.getLength() >= max_interval){
+                //Reached maximum size of time
+                final_intervals.add(new Interval(i.getLeft(), i.getLeft()+max_interval));
+                return final_intervals;
+            }
+        }
+
+        //otherwise, search for non contiguous intervals
+        for (Interval i : free_intervals){
+            if(i.getLength() >= max_interval){
+                final_intervals.add(new Interval(i.getLeft(), max_interval));
+                break;
+            }else{
+                final_intervals.add(i);
+                max_interval -= i.getLength();
+            }
+        }
+
+        return final_intervals;
     }
 }

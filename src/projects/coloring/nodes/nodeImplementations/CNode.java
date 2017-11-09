@@ -77,6 +77,7 @@ public class CNode extends Node {
      */
     public void compute(){
         boolean same=false;
+
         Iterator<Edge> it=this.outgoingConnections.iterator();
         boolean SC[]=new boolean[nb];
 
