@@ -1,7 +1,7 @@
 package projects.tdma_new.nodes.timers;
 
-import projects.coloring2.nodes.nodeImplementations.CNode;
-import projects.coloring2.nodes.messages.*;
+import projects.tdma_new.nodes.nodeImplementations.CNode;
+import projects.tdma_new.nodes.messages.*;
 import sinalgo.nodes.timers.Timer;
 
 /*

@@ -1,7 +1,7 @@
 package projects.clustering_new.nodes.nodeImplementations;
 
-import projects.coloring2.nodes.messages.CMessage;
-import projects.coloring2.nodes.nodeImplementations.*;
+import projects.clustering_new.nodes.messages.CMessage;
+import projects.clustering_new.nodes.nodeImplementations.*;
 
 import java.awt.*;
 import java.util.HashSet;
@@ -14,7 +14,7 @@ public class NodeManager {
     private Color colors[] = {Color.BLUE,Color.CYAN,Color.GREEN,Color.LIGHT_GRAY,Color.MAGENTA,Color.ORANGE,Color.PINK,Color.RED,Color.WHITE,Color.YELLOW};
 
 
-    public NodeManager(projects.coloring2.nodes.nodeImplementations.NodeInfo myself, int number_neighbours){
+    public NodeManager(NodeInfo myself, int number_neighbours){
         spectrumManager = new SpectrumManager(myself, number_neighbours);
     }
 
@@ -50,7 +50,7 @@ public class NodeManager {
         //I say that I am the dominant
         Integer my_dominant = this.getSpectrumManager().getMySelf().getId();
 
-        for(projects.coloring2.nodes.nodeImplementations.NodeInfo nd : getSpectrumManager().getMySpectrum()){
+        for(NodeInfo nd : getSpectrumManager().getMySpectrum()){
             //System.out.println("Checking: "+nd.getId()+nd.getDominator());
             if(nd.getId() > this.getSpectrumManager().getMySelf().getId()){
                 if(nd.isDominant()){
@@ -70,12 +70,12 @@ public class NodeManager {
             return;
         }
 
-        HashSet<projects.coloring2.nodes.nodeImplementations.NodeInfo> spectrum = this.getSpectrumManager().getWholeSpectrum();
+        HashSet<NodeInfo> spectrum = this.getSpectrumManager().getWholeSpectrum();
 
         boolean[] used_colors = new boolean[colors.length];
 
         //Set used colors
-        for (projects.coloring2.nodes.nodeImplementations.NodeInfo nd : spectrum){
+        for (NodeInfo nd : spectrum){
             if(nd.getDominator() > this.getSpectrumManager().getMySelf().getId()){
                 used_colors[nd.color] = true;
                 used_colors[nd.getDominatorColor()] = true;
@@ -99,7 +99,7 @@ public class NodeManager {
         }
 
         //Set colors of my dominated colors
-        for(projects.coloring2.nodes.nodeImplementations.NodeInfo neighbour : this.getSpectrumManager().getMySpectrum()){
+        for(NodeInfo neighbour : this.getSpectrumManager().getMySpectrum()){
             if(neighbour.getDominator() == this.getSpectrumManager().getMySelf().getId() && neighbour.getId() != this.getSpectrumManager().getMySelf().getId()){
                 if(used_colors[neighbour.getColor()]){
                     int free_color = freeColors(used_colors);

@@ -4,15 +4,15 @@ import java.awt.Color;
 import java.awt.Graphics;
 import java.util.*;
 
-import projects.coloring2.nodes.nodeImplementations.NodeInfo;
-import projects.coloring2.nodes.nodeImplementations.NodeManager;
+import projects.clustering_new.nodes.nodeImplementations.NodeInfo;
+import projects.clustering_new.nodes.nodeImplementations.NodeManager;
 import sinalgo.configuration.WrongConfigurationException;
 import sinalgo.gui.transformation.PositionTransformation;
 import sinalgo.nodes.Node;
 import sinalgo.nodes.edges.Edge;
 import sinalgo.nodes.messages.Inbox;
-import projects.coloring2.nodes.timers.*;
-import projects.coloring2.nodes.messages.*;
+import projects.clustering_new.nodes.timers.*;
+import projects.clustering_new.nodes.messages.*;
 import sinalgo.nodes.messages.Message;
 
 

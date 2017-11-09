@@ -1,6 +1,6 @@
 package projects.tdma_new.nodes.messages;
 
-import projects.coloring2.nodes.nodeImplementations.SpectrumManager;
+import projects.tdma_new.nodes.nodeImplementations.SpectrumManager;
 import sinalgo.nodes.messages.Message;
 
 /* description de l'unique type de message utilisŽ

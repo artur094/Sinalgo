@@ -1,6 +1,6 @@
 package projects.clustering_new.nodes.messages;
 
-import projects.coloring2.nodes.nodeImplementations.SpectrumManager;
+import projects.clustering_new.nodes.nodeImplementations.SpectrumManager;
 import sinalgo.nodes.messages.Message;
 
 /* description de l'unique type de message utilisŽ
