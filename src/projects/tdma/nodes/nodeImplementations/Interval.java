@@ -2,10 +2,14 @@ package projects.tdma.nodes.nodeImplementations;
 
 /**
  * Created by ivanmorandi on 02/11/2017.
+ * Interval is defined by 2 variables left (start) and right (end)
+ * It is used in TDMA to define the intervals of time when a node can transmit
  */
 public class Interval {
-    // left < right
+    //Left < right
+    //Left is when the interval starts
     Double left;
+    //Right when the interval ends
     Double right;
 
     public Interval(Double left, Double right){
@@ -31,10 +35,19 @@ public class Interval {
             this.right = right;
     }
 
+    /**
+     * Get the length of the interval
+     * @return
+     */
     public double getLength(){
         return (this.right - this.left);
     }
 
+    /**
+     * Say if you intervals intersecte between them (they overlaps for a specific period)
+     * @param interval
+     * @return
+     */
     public boolean intersect(Interval interval){
         if(this.left > interval.right || this.right < interval.left)
             return false;

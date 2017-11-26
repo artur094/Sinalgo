@@ -21,7 +21,8 @@ public class CTimer extends Timer {
 	 */
 
     public void fire() {
-        // le noeud crŽe un message contenant sa couleur
+        // The message will contain the whole spectrum of the node
+        // The spectrum contains me, neighbours of the node and the neighbours of each neighbour of the node
         CMessage msg= new CMessage(sender.getNodeManager().getSpectrumManager());
         // le noeud envoie le message ˆ tous ses voisins
         sender.broadcast(msg);

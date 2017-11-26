@@ -4,17 +4,33 @@ import java.util.HashSet;
 
 /**
  * Created by ivanmorandi on 05/10/2017.
+ * NodeInfo contains the most important data of the node itself
  */
 public class NodeInfo{
+    //ID of the node
     Integer id;
+    //ID of the dominator of the node (MIS)
     Integer dominator;
+    //Number of different colors in N2 (used for TDMA)
     Integer color_base;
+    //Color ID of the node
     Integer color;
+    //Color ID of future color of the node
     Integer new_color;
+    //Color ID of the dominator
     Integer dominator_color;
+    //Number of neighbours
     Integer number_neighbours;
+    //Intervals where the node can transmit
     HashSet<Interval> intervals;
 
+    /**
+     * At the beginning, the node set the dominator as itself
+     * @param id
+     * @param dominator
+     * @param color
+     * @param neighbours
+     */
     public NodeInfo(int id, int dominator, int color, int neighbours){
         this.id = id;
         this.dominator = dominator;
@@ -85,19 +101,35 @@ public class NodeInfo{
         this.intervals = intervals;
     }
 
+    /**
+     * Add interval to the set of intervals
+     * @param left
+     * @param right
+     */
     public void addInterval(Double left, Double right){
         Interval i = new Interval(left, right);
         this.intervals.add(i);
     }
 
+    /**
+     * Add interval to the set of intervals
+     * @param interval
+     */
     public void addInterval(Interval interval){
         this.intervals.add(interval);
     }
 
+    /**
+     * Add more intervals to the set of intervals
+     * @param intervals
+     */
     public void addIntervals(HashSet<Interval> intervals){
         this.intervals.addAll(intervals);
     }
 
+    /**
+     * Remove all elements from the set of intervals
+     */
     public void clearIntervals(){
         this.intervals.clear();
     }

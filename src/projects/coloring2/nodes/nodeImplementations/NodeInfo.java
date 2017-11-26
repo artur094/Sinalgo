@@ -2,15 +2,29 @@ package projects.coloring2.nodes.nodeImplementations;
 
 /**
  * Created by ivanmorandi on 05/10/2017.
+ * NodeInfo contains the most important data of the node itself
  */
 public class NodeInfo{
+    //ID of the node
     Integer id;
+    //ID of the dominator of the node (MIS)
     Integer dominator;
+    //Color ID of the node
     Integer color;
+    //Color ID of future color of the node
     Integer new_color;
+    //Color ID of the dominator
     Integer dominator_color;
+    //Number of neighbours
     Integer number_neighbours;
 
+    /**
+     * At the beginning, the node set the dominator as itself
+     * @param id
+     * @param dominator
+     * @param color
+     * @param neighbours
+     */
     public NodeInfo(int id, int dominator, int color, int neighbours){
         this.id = id;
         this.dominator = dominator;
@@ -19,6 +33,8 @@ public class NodeInfo{
         this.dominator_color = 0;
         this.number_neighbours = neighbours;
     }
+
+    //Next functions are only getter and setter of the variables
 
     public int getId() {
         return id;

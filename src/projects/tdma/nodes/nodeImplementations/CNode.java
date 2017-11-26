@@ -16,15 +16,16 @@ import sinalgo.nodes.messages.Message;
 
 
 public class CNode extends Node {
-
+    //NodeManager of the node
     private NodeManager nodeManager;
 
+    //Getter of NodeManager
     public NodeManager getNodeManager() {
         return nodeManager;
     }
 
     public void handleMessages(Inbox inbox) {
-
+        //Each received message is given as input to NodeManager of the node
         if(inbox.hasNext()==false) return;
 
         while(inbox.hasNext()){
@@ -32,7 +33,7 @@ public class CNode extends Node {
             Message msg=inbox.next();
 
             if(msg instanceof CMessage){
-
+                //Give the received message to nodeManager
                 nodeManager.parseMessage((CMessage)msg);
             }
 
@@ -53,11 +54,12 @@ public class CNode extends Node {
 	 */
 
     public void init() {
+        //Initialize the NodeInfo with information of the node (default color: 0)
         NodeInfo me = new NodeInfo(this.ID, this.ID, 0, this.outgoingConnections.size());
+        //Initialize nodeManager with the created NodeInfo and the number of neighbours
         this.nodeManager = new NodeManager(me, this.outgoingConnections.size());
 
         (new CTimer(this, 50)).startRelative(50, this);
-        //(new CTimer(this, 50)).startRelative(50, this);
     }
 
     public void neighborhoodChange() {}
@@ -82,6 +84,9 @@ public class CNode extends Node {
 	 */
 
     public void draw(Graphics g, PositionTransformation pt, boolean highlight) {
+        //Each node in the graph has a text formatted in a specific way
+        //If dominator: NODEID + "D" + NODEID (e.g., 3D3, 3 is a dominator)
+        //Otherwise: NODEID + "-" + DOMINATOR (e.g., 1-5, 1 is dominated by 5)
         Color c;
         this.setColor(this.nodeManager.getRGBColor(this.nodeManager.getSpectrumManager().getMySelf().getColor()));
 

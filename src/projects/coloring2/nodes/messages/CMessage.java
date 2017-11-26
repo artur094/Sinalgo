@@ -9,6 +9,7 @@ import sinalgo.nodes.messages.Message;
 
 public class CMessage extends Message {
 
+    //The message contains all information that a node has
     private SpectrumManager mySpectrumManager;
 
     public CMessage(SpectrumManager spectrumManager) {

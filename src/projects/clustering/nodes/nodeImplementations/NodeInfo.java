@@ -2,18 +2,35 @@ package projects.clustering.nodes.nodeImplementations;
 
 /**
  * Created by ivanmorandi on 05/10/2017.
+ * NodeInfo contains the most important data of the node itself
+ * Dominator is not used in Clustering
  */
 public class NodeInfo{
+    //ID of the node
     Integer id;
+    //ID of the dominator of the node (MIS)
     Integer dominator;
+    //Color ID of the node
     Integer color;
+    //Color ID of future color of the node
     Integer new_color;
+    //Color ID of the dominator
     Integer dominator_color;
+    //Number of neighbours
     Integer number_neighbours;
+    //Cluesterhead of the node (the neighbour or the itself with the greatest value of clustering)
     Integer cluster_head;
+    //Clustering value of the neighbour
     Double cluster_head_clustering;
     Double clustering;
 
+    /**
+     * At the beginning, the node set the dominator and clusterhead as itself
+     * @param id
+     * @param dominator
+     * @param color
+     * @param neighbours
+     */
     public NodeInfo(int id, int dominator, int color, int neighbours){
         this.id = id;
         this.dominator = dominator;
@@ -25,6 +42,8 @@ public class NodeInfo{
         this.cluster_head = this.id;
         this.cluster_head_clustering = 0.0;
     }
+
+    //Next functions are only getter and setter of the variables
 
     public int getId() {
         return id;
