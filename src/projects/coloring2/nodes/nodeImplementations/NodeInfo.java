@@ -78,6 +78,7 @@ public class NodeInfo{
         this.new_color = new_color;
     }
 
+    //hashcode and equals are redefined to work properly with hashset
     @Override
     public int hashCode() {
         return id.hashCode();

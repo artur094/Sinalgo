@@ -91,10 +91,10 @@ public class CNode extends Node {
 
         String text = ""+this.ID;
         if(this.getNodeManager().getSpectrumManager().getMySelf().getClusterHead().equals(this.getNodeManager().getSpectrumManager().getMySelf().getId())){
-            text += " H";
+            text += "H";
         }
         else
-            text += " C"+this.getNodeManager().getSpectrumManager().getMySelf().getClusterHead();
+            text += "C"+this.getNodeManager().getSpectrumManager().getMySelf().getClusterHead();
         c=Color.BLACK;
 
         super.drawNodeAsDiskWithText(g, pt, highlight, text, 20, c);

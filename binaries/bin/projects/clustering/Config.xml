@@ -164,7 +164,7 @@
 		<shownEventQueueSize value="10" />
 
 		<!--The length of the arrows. This length is multiplied by the actualzoomLevel.-->
-		<arrowLength value="20" />
+		<arrowLength value="8" />
 
 		<!--The width of the arrows. This width is multiplied by the actualzoomLevel.-->
 		<arrowWidth value="1" />

@@ -44,7 +44,7 @@ public class Interval {
     }
 
     /**
-     * Say if you intervals intersecte between them (they overlaps for a specific period)
+     * Say if the intervals intersect between them (they overlaps for a specific period)
      * @param interval
      * @return
      */

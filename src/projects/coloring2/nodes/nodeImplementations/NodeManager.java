@@ -7,8 +7,8 @@ import java.util.HashSet;
 
 /**
  * Created by ivanmorandi on 06/11/2017.
- * NodeManager is the logical component of the node
- * NodeManager is based on SpectrumManager which contains all important data
+ * NodeManager is the logical component of the node (it computes all algorithm, in this case MIS and Coloring protocol distance 2
+ * NodeManager uses SpectrumManager which contains all important information
  * Each node has a NodeManager
  */
 public class NodeManager {
@@ -83,7 +83,7 @@ public class NodeManager {
             if(nd.getId() > this.getSpectrumManager().getMySelf().getId()){
                 //I check if it is a dominator
                 //If yes, I check if its ID is bigger than the node's dominator
-                //If still yes, then I update the node's dominator with the new ID
+                //If yes, then I update the node's dominator with the new ID
                 if(nd.isDominant()){
                     if(my_dominant < nd.getId())
                         my_dominant = nd.getId();
@@ -96,7 +96,7 @@ public class NodeManager {
     }
 
     /**
-     * Compute the colors for each dominated neighbour.
+     * Compute the colors for itself and the dominated nodes.
      * It is only executed if the node is a dominator
      */
     public void computeColors(){
