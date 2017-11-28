@@ -193,7 +193,7 @@ public class NodeManager {
         //Get neighbours at maximum distance 2
         HashSet<NodeInfo> tmp = this.getSpectrumManager().getSpectrumDitansce2();
 
-        //Foreach node, consider the one with lower color base (or if equal, with greater color ID)
+        //Foreach node, consider the one with lower color base (or if equal, with smaller color ID)
         //And add the intervals of these nodes to the set 'intervals'
         for (NodeInfo nd : tmp){
             if(nd.getColorBase() > this.getSpectrumManager().getMySelf().getColorBase() ||
