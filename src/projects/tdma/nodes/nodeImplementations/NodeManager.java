@@ -321,7 +321,7 @@ public class NodeManager {
             //If the interval is bigger than what the remaining time
             if(i.getLength() >= max_interval){
                 //Add an interval long as the remaining time and then leave the function
-                final_intervals.add(new Interval(i.getLeft(), max_interval));
+                final_intervals.add(new Interval(i.getLeft(), i.getRight()+max_interval));
                 break;
             }else{
                 //Otherwise add the interval and decrease the remaining time
